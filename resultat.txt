@@ -1,0 +1,6 @@
+Antal ettor: 182
+Antal tvåor: 160
+Antal treor: 169
+Antal fyror: 165
+Antal femmor: 160
+Antal sexor: 164

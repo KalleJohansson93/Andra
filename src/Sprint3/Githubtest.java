@@ -4,4 +4,5 @@ public class Githubtest {
 
 
     int i = 2;
+    int e = 2;
 }

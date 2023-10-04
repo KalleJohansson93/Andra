@@ -15,9 +15,7 @@ public class Main {
         m.b1.printMe();
         m.b1.växla(8);
         m.b1.printMe();
-
-
-
+        System.out.println(m.b1);
 
 
     }

@@ -3,7 +3,6 @@ package Sprint1.Inlämningsuppgift;
 public class Kaktusar extends Växter {
 
     private final String kaktusBehov = " behöver 2cl mineralvatten per dag";
-    //private String växtTyp = "Kaktusen ";
 
     public Kaktusar(double höjd, String namn) {
         super.höjd = höjd;

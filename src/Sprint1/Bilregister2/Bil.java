@@ -15,9 +15,9 @@ public class Bil extends Fordon {
 
 
 
-    public void växla (int nyVäxel){
+    public int växla (int nyVäxel){
         nuvarandeVäxel = nyVäxel;
-        vikt = 234;
+        return nuvarandeVäxel;
     }
 
     @Override

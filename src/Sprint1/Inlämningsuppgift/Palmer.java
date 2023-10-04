@@ -1,9 +1,8 @@
 package Sprint1.Inlämningsuppgift;
 
-public class Palmer extends Växter  {
+public class Palmer extends Växter {
 
     private final String palmBehov = "l vatten per dag";
-    //private String växtTyp1 = "Palmen ";
     private final double palmFormel = 0.5;
 
 

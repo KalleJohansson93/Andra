@@ -14,24 +14,23 @@ public class Huvudprogram {
 
         List<Växter> växter = new ArrayList<>();
         växter.add(laura);
-        växter.add(olof);                    // FINAL    FRÅGOR    OVERRIDE
-        växter.add(igge);                 // Växter igge = new kaktusar
+        växter.add(olof);
+        växter.add(igge);
         växter.add(meatloaf);
 
 
-        //Frågar vilken växt det gäller och antingen visar den växtens näringsbehov eller skriver felmeddelande och
-        // erbjuder användaren att se alla tillgängliga växter genom att skriva status i dialogruta
+        //Ger användaren växtens näringsbehov alternativt ger felmeddelande och erbjuder en lista över alla tillgängliga växter
         String växtSomSkaVattnas = JOptionPane.showInputDialog(null, "Vilken växt ska få näring?");
         int counter = 0;
-        for (Växter v : växter) {
+        for (Växter växt : växter) {
             counter++;
-            if (v.getNamn().toLowerCase().equals(växtSomSkaVattnas.toLowerCase().trim())) {  //Polymorfism
-                JOptionPane.showMessageDialog(null, v.Vattna()); //Polymorfism
+            if (växt.getNamn().toLowerCase().equals(växtSomSkaVattnas.toLowerCase().trim())) {  //Polymorfism
+                JOptionPane.showMessageDialog(null, växt.Vattna()); //Polymorfism
                 break;
             } else if (växtSomSkaVattnas.toLowerCase().equals("status")) {
                 StringBuilder allaVäxter = new StringBuilder();
-                for (Växter x : växter) {
-                    allaVäxter.append(x.getNamn()).append("\n"); //Polymorfism
+                for (Växter v : växter) {
+                    allaVäxter.append(v.getNamn()).append("\n"); //Polymorfism
                 }
                 JOptionPane.showMessageDialog(null, allaVäxter);
                 break;

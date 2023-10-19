@@ -1,6 +1,8 @@
 package Sprint1.Fordon;
 
-public class Fordon {
+import java.io.Serializable;
+
+public class Fordon implements Serializable {
     protected int hastighet;
     protected int vikt;
 

@@ -14,6 +14,8 @@ import javax.swing.JTextField;
 
 public class Bilhyra extends JFrame implements ActionListener{
 
+    //GITtest2
+
     Scanner sc = new Scanner(System.in);
     JLabel mätarställningNuLabel = new JLabel("Ange mätarställning nu: ");
     JLabel mätarställningGammalLabel = new JLabel("Ange mätarställning för ett år sedan: ");

@@ -1,6 +1,6 @@
 package Sprint4;
 
-public class Hiss {
+public class Hiss { //Kalle
 
     private int maxWeight;
     private int grossWeight;
